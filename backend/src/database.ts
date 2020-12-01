@@ -1,5 +1,5 @@
 import {Sequelize} from 'sequelize';
 
-const sequelize = new Sequelize('mysql://root:bancodedados@localhost:3306/pitu');
+const sequelize = new Sequelize('mysql://login:senha@endereçodobanco:porta/pitu');
 
 export default sequelize;
